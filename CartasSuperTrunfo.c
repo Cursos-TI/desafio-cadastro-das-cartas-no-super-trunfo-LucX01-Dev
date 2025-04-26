@@ -16,7 +16,7 @@ printf("Digite uma letra de 'A' a 'H' correspondendo ao estado solicitado: \n");
 scanf("%s", &Estado_01);
 
 printf("Agora digite um número de 01 a 04 para adicionar a sua carta: \n");
-scanf("%s", &Codigo_carta01);
+scanf("%s", Codigo_carta01);
 
 printf("Digite o nome da cidade a qual quer adicionar a sua carta: \n");
 scanf("%s", &Cidade01);
@@ -39,10 +39,12 @@ scanf("%d", &Turistico01);
 
 printf("Cidade 1:\n");
 printf("Estado: %s\n", Estado_01);
-printf("Código: %")
+printf("Código: %s\n", Codigo_carta01);
+printf("Nome da Cidade: %s\n", Cidade01);
+printf("Popualação: %d\n", Populacao01);
+printf("Área: %f\n", Area01);
+printf("PIB: %f\n", Pib01);
+printf("Número de Pontos Turísticos: %d\n", Turistico01);
 
-
-
-
-
+return 0;
 }
